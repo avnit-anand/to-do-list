@@ -9,7 +9,6 @@ import {
   doc,
   updateDoc,
   deleteDoc,
-  QuerySnapshot,
 } from "firebase/firestore";
 import { db } from "../../firebase";
 

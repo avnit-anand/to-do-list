@@ -9,7 +9,7 @@ import Home from "./pages/Home/Home";
 
 function App() {
   const [userName, setUserName] = useState("");
-
+  console.log(userName)
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
